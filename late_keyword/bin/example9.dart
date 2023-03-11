@@ -1,11 +1,16 @@
+
 void main(List<String> args) {
-  final johnDoe = Person(name: 'John Doe');
-  final janeDoe = Person(name: 'Jane Doe');
-  final doeFamily = RightImplementationOfFamily(
-    members: [
-      johnDoe,
-      janeDoe
-    ]);
+  String a = "2";
+  String b = "3";
+  String ans = (int.parse(a) * int.parse(b)).toString();
+  print(ans);
+  // final johnDoe = Person(name: 'John Doe');
+  // final janeDoe = Person(name: 'Jane Doe');
+  // final doeFamily = RightImplementationOfFamily(
+  //   members: [
+  //     johnDoe,
+  //     janeDoe
+  //   ]);
 }
 
 class Person {
